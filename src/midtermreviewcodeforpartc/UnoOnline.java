@@ -36,7 +36,7 @@ public class UnoOnline
      * 2. The password must contain at least one "special character"
      * 
      */
-    private void run()
+    public void run()
     {
         int userCount=0;//keep track of number of users for array
         Scanner sc = new Scanner(System.in);
